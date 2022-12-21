@@ -145,11 +145,12 @@ exports.deleteReview = catchAsyncError(async(req,res,next)=>{
     if(!product){
         return next(new ErrorHandler("Product not found",404));
     }
+    product.reviews = [];
     const reviews = product.reviews.filter((rev)=>rev._id.toString() !== req.query.id.toString());
 
     let avg = 0;
 
-    reviews.forEach((rev)=>{
+    product.reviews.forEach((rev)=>{
         avg += rev.rating;
     });
 
@@ -160,11 +161,11 @@ exports.deleteReview = catchAsyncError(async(req,res,next)=>{
     } else{
         ratings = avg/reviews.length;
     }
-    console.log(ratings)
-   const numOfReviews = reviews.length;
-   console.log(numOfReviews)
+    
+   const numOfReviews = product.reviews.length;
 
-   await Product.findByIdAndUpdate(req.query.productId,{
+   await Product.findByIdAndUpdate(req.query.productId,
+    {
     reviews,
     ratings,
     numOfReviews
