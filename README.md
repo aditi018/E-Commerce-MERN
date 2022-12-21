@@ -1,8 +1,8 @@
 # E-Commerce-MERN
 This is a complete MERN E-Commerce website accessed by users as well as the admin.
 
-##Available Routes:-
-###Product
+## Available Routes:-
+### Product
   -Create new product (admin route)
   -Get all products 
   -Get product details
@@ -11,7 +11,7 @@ This is a complete MERN E-Commerce website accessed by users as well as the admi
   -Create and update review
   -Get all product reviews
   -Delete review
-###User
+### User
   -Register user
   -Login user
   -Logout
@@ -23,7 +23,7 @@ This is a complete MERN E-Commerce website accessed by users as well as the admi
   -Get all user (admin route)
   -Update user role (admin route)
   -Delete user (admin route)
-###Order
+### Order
   -New order
   -Get single order
   -Users order
@@ -31,8 +31,8 @@ This is a complete MERN E-Commerce website accessed by users as well as the admi
   -Update order status (admin route)
   -Delete order (admin route)
   
-  ##To use this project:
-  ###For backend:
+  ## To use this project:
+  ### For backend:
      -`Install dependencies` :
          **npm i**
      -`ENV variables` :
