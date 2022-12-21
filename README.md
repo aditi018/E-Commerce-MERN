@@ -33,9 +33,9 @@ This is a complete MERN E-Commerce website accessed by users as well as the admi
   
   ## To use this project:
   ### For backend:
-     -` Install dependencies ` :
+     *Install dependencies*
          *npm i*
-     -`ENV variables` :
+     `ENV variables`
          Make sure to create a config.env file in backend/config directory and add appropriate 
          variables.
          **Important variables**
