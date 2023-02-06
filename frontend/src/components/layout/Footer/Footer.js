@@ -11,11 +11,6 @@ const Footer = ()=>{
             </div>
             <div className="midFooter">
                 <h1>Quick Links</h1>
-                <a href="https://google.com">Home</a>
-                <a href="https://google.com">Career</a>
-                <a href="https://google.com">Solution</a>
-                <a href="https://google.com">About Us</a>
-                <a href="https://google.com">Contact Us</a>
                 <p>Copyrights 2023 &copy; MeAditiDas</p>
             </div>
             <div className="rightFooter">
@@ -24,7 +19,7 @@ const Footer = ()=>{
                 <p>Raipur-492001, Chattisgarh</p>
                 <p>Mobile +919039939374</p>
                 <p>Mon to Sat : 11:00 AM - 8:00PM</p>
-                <p>Email: md@kvclinicalresearch.com</p>
+                <p>Email: ecommerce@gmail.com</p>
             </div>
         </footer>
     );
